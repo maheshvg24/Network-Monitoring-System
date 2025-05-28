@@ -1,0 +1,16 @@
+CPU Usage: 76.1%
+Memory Available: 4.12 GB (65.0% used)
+Disk Usage: 78.7%
+Network Sent: 437.72 MB, Received: 1556.49 MB
+Interface 'Ethernet': isup=False, speed=100Mbps, duplex=2
+Interface 'Ethernet 2': isup=False, speed=4294Mbps, duplex=2
+Interface 'Bluetooth Network Connection 2': isup=False, speed=3Mbps, duplex=2
+Interface 'Loopback Pseudo-Interface 1': isup=True, speed=1073Mbps, duplex=2
+Interface 'Wi-Fi 2': isup=True, speed=200Mbps, duplex=2
+Interface 'Local Area Connection* 11': isup=False, speed=0Mbps, duplex=2
+Interface 'Local Area Connection* 12': isup=False, speed=0Mbps, duplex=2
+Ping to 8.8.8.8: Avg Latency=8.67ms, Jitter=2.0ms
+Ping to 1.1.1.1: Avg Latency=13.33ms, Jitter=11.0ms
+Ping to google.com: Avg Latency=14.33ms, Jitter=2.0ms
+Ping to trigent.com: Avg Latency=157.67ms, Jitter=7.0ms
+❗ High Latency to trigent.com
