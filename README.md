@@ -52,19 +52,24 @@ Network-Monitoring-System/
 ## 📦 Setup Instructions
 
 1. **Clone the repository**
+   
    git clone https://github.com/maheshvg24/Network-Monitoring-System.git
    cd Network-Monitoring-System
 
-2. **Create a virtual environment**
+3. **Create a virtual environment**
+   
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
-3. **Install dependencies**
+5. **Install dependencies**
+   
 pip install -r requirements.txt
 
-5. **Configure environment variables**
+7. **Configure environment variables**
+   
 Create a .env file and add:
 OPENAI_API_KEY=your_openai_key_here
 
-6. **Run the system**
+9. **Run the system**
+    
 python main.py
