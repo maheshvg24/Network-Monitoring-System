@@ -35,4 +35,36 @@ An intelligent, agent-based system using [CrewAI](https://github.com/joaomdmoura
 3. **Reporting Agent**
    - Creates a Markdown report and triggers system alerts.
 
+---
 
+## 📂 Project Structure
+
+Network-Monitoring-System/
+├── tools/
+│ ├── advanced_network_metrics_tool.py
+│ └── system_alert_tool.py
+├── llm_config.py
+├── main.py (or your main script file)
+└── README.md
+
+---
+
+## 📦 Setup Instructions
+
+1. **Clone the repository**
+   git clone https://github.com/maheshvg24/Network-Monitoring-System.git
+   cd Network-Monitoring-System
+
+2. **Create a virtual environment**
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+3. **Install dependencies**
+pip install -r requirements.txt
+
+5. **Configure environment variables**
+Create a .env file and add:
+OPENAI_API_KEY=your_openai_key_here
+
+6. **Run the system**
+python main.py
